@@ -1,0 +1,89 @@
+.error{
+  color: red;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.navbar-left,
+.navbar-center,
+.navbar-right { 
+  flex:1
+}
+
+.navbar-right{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+
+
+
+.navbar-logo {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navbar-logo:hover {
+  color: #007bff;
+}
+
+.navbar-center {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.navbar-link {
+  font-size: 1rem;
+  color: #555;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 1rem ;
+  transition: color 0.3s, background-color 0.3s;
+  border-radius: 6px;
+  border: 0.7px solid blue;
+}
+
+.navbar-link:hover {
+  color: #fff;
+  background-color: #007bff;
+}
+
+.navbar-login {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+.navbar-login:hover {
+  background-color: #0056b3;
+}
+
+.navbar-logout {
+  font-size: 1rem;
+  padding: 8px 10px;
+  background-color: red;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+.navbar-logout:hover {
+  background-color: rgb(213, 0, 0);
+  cursor: pointer;
+}
