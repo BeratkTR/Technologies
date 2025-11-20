@@ -1,0 +1,25 @@
+# Node modules (if using JS/TS)
+node_modules/
+
+# Build outputs
+dist/
+build/
+out/
+target/
+
+# System files
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
