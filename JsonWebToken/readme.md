@@ -1,15 +1,19 @@
-# 🚀 JWT 
+# 🚀 JWT Authentication — My Notes & Guide
 
-Guide that I get help: 
-<br>
-Frontend: [React Authentication With JWT](https://medium.com/@coderskamrul/react-authentication-with-jwt-30d57dc4cd6f) 
-<br>
-Backend: [JWT Authentication in Node.js](https://dvmhn07.medium.com/jwt-authentication-in-node-js-a-practical-guide-c8ab1b432a49)
+### 📘 Guides I Used  
+**Frontend:** [React Authentication With JWT](https://medium.com/@coderskamrul/react-authentication-with-jwt-30d57dc4cd6f)  
+**Backend:** [JWT Authentication in Node.js](https://dvmhn07.medium.com/jwt-authentication-in-node-js-a-practical-guide-c8ab1b432a49)
 
-| Çizim-1 | Çizim-2 |
-|-------|----|
-| ![Çizim1](çizimim1.png) | ![Çizim2](çizimim2.png) |
+---
 
+### Diagrams
+
+<div style="display: flex; gap: 20px;">
+  <img src="çizimim1.png" width="480">
+  <img src="çizimim2.png" width="480">
+</div>
+
+---
 
 ## Notes for Myself 
 
